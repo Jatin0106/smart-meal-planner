@@ -59,9 +59,14 @@ class _FoodEntryScreenState extends ConsumerState<FoodEntryScreen> {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => _showAddCustomFoodModal(context),
-        child: const Icon(Icons.add),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(bottom: 90.0, right: 8.0),
+        child: FloatingActionButton.extended(
+          onPressed: () => _showAddCustomFoodModal(context),
+          icon: const Icon(Icons.add),
+          label: const Text('Custom Food'),
+          elevation: 4,
+        ),
       ),
     );
   }
