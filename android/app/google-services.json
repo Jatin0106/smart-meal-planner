@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74029902960",
+    "project_id": "smart-meal-planner-3d97f",
+    "storage_bucket": "smart-meal-planner-3d97f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74029902960:android:33c590791af58f731498b5",
+        "android_client_info": {
+          "package_name": "com.example.smart_meal_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMLW8t8G8mLKg8Cw_ariV03e0kschzVso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
